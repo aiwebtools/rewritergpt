@@ -1,12 +1,47 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React, { useEffect } from 'react';
+import Header from '@/components/Header';
+import Hero from '@/components/Hero';
+import Features from '@/components/Features';
+import HowItWorks from '@/components/HowItWorks';
+import Testimonials from '@/components/Testimonials';
+import FAQ from '@/components/FAQ';
+import Legal from '@/components/Legal';
+import Footer from '@/components/Footer';
+import ThreeBackground from '@/components/ThreeBackground';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 const Index = () => {
+  const isMobile = useIsMobile();
+
+  useEffect(() => {
+    // Update document title
+    document.title = "Article and Blog Rewriter GPT | AI-Powered Content Transformation";
+    
+    // Scroll to top on load
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="flex flex-col min-h-screen bg-cyber-black">
+      {/* 3D Background (only on desktop) */}
+      {!isMobile && <ThreeBackground />}
+      
+      {/* Header */}
+      <Header />
+      
+      {/* Main Content */}
+      <main>
+        <Hero />
+        <Features />
+        <HowItWorks />
+        <Testimonials />
+        <FAQ />
+        <Legal />
+      </main>
+      
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
