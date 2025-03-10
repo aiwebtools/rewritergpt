@@ -9,6 +9,7 @@ import FAQ from '@/components/FAQ';
 import Legal from '@/components/Legal';
 import Footer from '@/components/Footer';
 import ThreeBackground from '@/components/ThreeBackground';
+import ConsentPopup from '@/components/ConsentPopup';
 import { useIsMobile } from '@/hooks/use-mobile';
 
 const Index = () => {
@@ -26,6 +27,9 @@ const Index = () => {
     <div className="flex flex-col min-h-screen bg-cyber-black">
       {/* 3D Background (only on desktop) */}
       {!isMobile && <ThreeBackground />}
+      
+      {/* Consent Popup */}
+      <ConsentPopup />
       
       {/* Header */}
       <Header />
