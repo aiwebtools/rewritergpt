@@ -16,8 +16,17 @@ const Index = () => {
   const isMobile = useIsMobile();
 
   useEffect(() => {
-    // Update document title
-    document.title = "Article and Blog Rewriter GPT | AI-Powered Content Transformation";
+    // Update document title for better SEO
+    document.title = "Article and Blog Rewriter GPT - Free AI Writing Tool | AI Web Tools";
+    
+    // Add meta description if not present
+    let metaDescription = document.querySelector('meta[name="description"]');
+    if (!metaDescription) {
+      metaDescription = document.createElement('meta');
+      metaDescription.setAttribute('name', 'description');
+      metaDescription.setAttribute('content', 'Transform your content with our free AI-powered Article and Blog Rewriter GPT. Preserve style, enhance quality, and optimize for SEO. Best free AI writing tool for content creators.');
+      document.head.appendChild(metaDescription);
+    }
     
     // Scroll to top on load
     window.scrollTo(0, 0);

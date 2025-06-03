@@ -31,14 +31,14 @@ const Hero: React.FC = () => {
           <div className="flex flex-col gap-6 md:gap-8">
             <div>
               <div className="inline-block px-4 py-1 rounded-full bg-cyber-blue/10 border border-cyber-blue/20 mb-4">
-                <p className="text-sm font-medium text-cyber-cyan">Revolutionary AI Writing Assistant</p>
+                <p className="text-sm font-medium text-cyber-cyan">Free AI Writing Assistant</p>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-display leading-tight mb-4">
-                Transform Your <span className="cyber-text-glow">Content</span> with Advanced AI
+                Transform Your <span className="cyber-text-glow">Content</span> with Free AI Tools
               </h1>
               <p className="text-xl text-gray-300 leading-relaxed">
-                Rewrite articles and blogs with perfect preservation of tone, style, and detail. 
-                Enhanced for SEO, engagement, and uniqueness.
+                Rewrite articles and blogs with perfect preservation of tone, style, and detail using our free AI tools. 
+                Enhanced for SEO, engagement, and uniqueness - completely free to use.
               </p>
             </div>
 
@@ -48,14 +48,16 @@ const Hero: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer" 
                 className="cyber-button"
+                aria-label="Try Article and Blog Rewriter GPT - Free AI Writing Tool"
               >
-                <span className="cyber-button-content">Try Article Rewriter GPT</span>
+                <span className="cyber-button-content">Try Free AI Article Rewriter</span>
               </a>
               <a 
                 href="#how-it-works" 
                 className="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden
                 text-white font-bold transition-all duration-300 border border-cyber-blue/30
                 hover:border-cyber-blue/70 rounded-md bg-cyber-black/50"
+                aria-label="Learn more about our free AI tools"
               >
                 <span className="flex items-center gap-2">
                   Learn More <ArrowDown size={16} />
@@ -70,7 +72,7 @@ const Hero: React.FC = () => {
                 <div className="w-8 h-8 rounded-full bg-cyber-cyan flex items-center justify-center text-xs font-bold shadow-lg">T</div>
               </div>
               <p className="text-sm text-gray-400">
-                Trusted by <span className="text-white font-medium">thousands</span> of content creators
+                Trusted by <span className="text-white font-medium">thousands</span> of content creators using free AI tools
               </p>
             </div>
           </div>
@@ -81,8 +83,11 @@ const Hero: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-cyber-blue/20 to-cyber-purple/20 mix-blend-overlay z-10"></div>
               <img 
                 src="https://img1.wsimg.com/isteam/ip/9fd6d942-5b46-4025-92e2-0f1ec2a7adf2/1000005696.jpg/:/cr=t:9.9%25,l:0%25,w:100%25,h:80.21%25/rs=w:1200,h:600,cg:true" 
-                alt="Article and Blog Rewriter GPT" 
+                alt="Article and Blog Rewriter GPT - Free AI Writing Tool Interface" 
                 className="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-105"
+                loading="eager"
+                width="600"
+                height="400"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-cyber-black via-transparent to-transparent z-20"></div>
             </div>
@@ -95,7 +100,7 @@ const Hero: React.FC = () => {
               <p className="text-sm font-medium text-cyber-purple">Maintains Original Style</p>
             </div>
             <div className="absolute top-1/2 -right-4 glass-panel px-3 py-2 animate-float animation-delay-1000 shadow-lg">
-              <p className="text-sm font-medium text-cyber-blue">Multiple Formats Supported</p>
+              <p className="text-sm font-medium text-cyber-blue">100% Free AI Tool</p>
             </div>
           </div>
         </div>
@@ -103,7 +108,7 @@ const Hero: React.FC = () => {
 
       {/* Scroll Down Indicator */}
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <a href="#features" className="text-cyber-blue hover:text-cyber-cyan transition-colors">
+        <a href="#features" className="text-cyber-blue hover:text-cyber-cyan transition-colors" aria-label="Scroll to features">
           <ArrowDown size={24} />
         </a>
       </div>

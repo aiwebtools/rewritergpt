@@ -63,14 +63,14 @@ const Features: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <div className="inline-block px-4 py-1 rounded-full bg-cyber-blue/10 border border-cyber-blue/20 mb-4">
-            <p className="text-sm font-medium text-cyber-cyan">Powerful Features</p>
+            <p className="text-sm font-medium text-cyber-cyan">Free AI Tools Features</p>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold font-display mb-6">
-            Advanced Rewriting <span className="cyber-text-glow">Capabilities</span>
+            Advanced Free AI Writing <span className="cyber-text-glow">Capabilities</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Our AI-powered tool offers comprehensive features to transform your content 
-            while preserving its essence and enhancing its impact.
+            Our free AI-powered tool offers comprehensive features to transform your content 
+            while preserving its essence and enhancing its impact - all completely free.
           </p>
         </div>
 
@@ -78,19 +78,19 @@ const Features: React.FC = () => {
           <Feature 
             icon={<Sparkles size={24} />}
             title="Style Preservation"
-            description="Rewrites content while maintaining the original tone, voice, and style of the author."
+            description="Free AI tool that rewrites content while maintaining the original tone, voice, and style of the author."
             delay={100}
           />
           <Feature 
             icon={<Search size={24} />}
-            title="SEO Optimization"
-            description="Enhances your content for better search engine ranking without compromising readability."
+            title="Free SEO Optimization"
+            description="Enhances your content for better search engine ranking without compromising readability - completely free."
             delay={200}
           />
           <Feature 
             icon={<FileText size={24} />}
             title="Multiple Format Support"
-            description="Accepts and processes content from links, uploads, copy-pasted text, or even images."
+            description="Free AI tool accepts and processes content from links, uploads, copy-pasted text, or even images."
             delay={300}
           />
           <Feature 
@@ -101,8 +101,8 @@ const Features: React.FC = () => {
           />
           <Feature 
             icon={<Download size={24} />}
-            title="Downloadable Results"
-            description="Get your rewritten content in a convenient document format for immediate use."
+            title="Free Downloadable Results"
+            description="Get your rewritten content in a convenient document format for immediate use - no cost."
             delay={500}
           />
           <Feature 
@@ -113,7 +113,7 @@ const Features: React.FC = () => {
           />
           <Feature 
             icon={<Image size={24} />}
-            title="Image Text Recognition"
+            title="Free Image Text Recognition"
             description="Extract text from images of articles for rewriting, saving you time on manual transcription."
             delay={700}
           />
@@ -125,8 +125,8 @@ const Features: React.FC = () => {
           />
           <Feature 
             icon={<Sparkles size={24} />}
-            title="Complete Customization"
-            description="Personalize and fine-tune the rewritten content according to your specific requirements."
+            title="Complete Free Customization"
+            description="Personalize and fine-tune the rewritten content according to your specific requirements at no cost."
             delay={900}
           />
         </div>
