@@ -77,29 +77,28 @@ const Hero: React.FC = () => {
             </div>
           </div>
 
-          {/* Hero Image */}
+          {/* Hero Video */}
           <div className="relative">
-            <div className="relative rounded-lg overflow-hidden border border-cyber-blue/20 shadow-[0_0_30px_rgba(62,104,255,0.15)] group hover:shadow-[0_0_40px_rgba(62,104,255,0.25)] transition-all duration-500">
-              <div className="absolute inset-0 bg-gradient-to-br from-cyber-blue/20 to-cyber-purple/20 mix-blend-overlay z-10"></div>
-              <img 
-                src="https://img1.wsimg.com/isteam/ip/9fd6d942-5b46-4025-92e2-0f1ec2a7adf2/1000005696.jpg/:/cr=t:9.9%25,l:0%25,w:100%25,h:80.21%25/rs=w:1200,h:600,cg:true" 
-                alt="Article and Blog Rewriter GPT - Free AI Writing Tool Interface" 
-                className="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-105"
-                loading="eager"
-                width="600"
-                height="400"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-cyber-black via-transparent to-transparent z-20"></div>
+            <div className="relative rounded-lg overflow-hidden border border-cyber-blue/20 shadow-[0_0_30px_rgba(62,104,255,0.15)] hover:shadow-[0_0_40px_rgba(62,104,255,0.25)] transition-all duration-500">
+              <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/5n1RHKoQ-Ds?autoplay=1&mute=0&loop=1&playlist=5n1RHKoQ-Ds&controls=1&rel=0&vq=hd1080&hd=1"
+                  title="Article and Blog Rewriter GPT - Free AI Tool Demo"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </div>
 
             {/* Floating feature badges */}
-            <div className="absolute -top-6 -right-6 glass-panel px-3 py-2 animate-float shadow-lg">
+            <div className="absolute -top-6 -right-6 glass-panel px-3 py-2 animate-float shadow-lg z-30">
               <p className="text-sm font-medium text-cyber-cyan">SEO Optimized</p>
             </div>
-            <div className="absolute -bottom-6 -left-6 glass-panel px-3 py-2 animate-float animation-delay-500 shadow-lg">
+            <div className="absolute -bottom-6 -left-6 glass-panel px-3 py-2 animate-float animation-delay-500 shadow-lg z-30">
               <p className="text-sm font-medium text-cyber-purple">Maintains Original Style</p>
             </div>
-            <div className="absolute top-1/2 -right-4 glass-panel px-3 py-2 animate-float animation-delay-1000 shadow-lg">
+            <div className="absolute top-1/2 -right-4 glass-panel px-3 py-2 animate-float animation-delay-1000 shadow-lg z-30">
               <p className="text-sm font-medium text-cyber-blue">100% Free AI Tool</p>
             </div>
           </div>
