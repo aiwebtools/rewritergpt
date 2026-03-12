@@ -93,7 +93,7 @@ const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="https://aiwebtools.ai/terms-of-services" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-cyber-cyan transition-colors flex items-center gap-2">
+                <a href={AIWEBTOOLS_URL} target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-cyber-cyan transition-colors flex items-center gap-2">
                   <ArrowRight size={16} />
                   Terms of Service
                 </a>
