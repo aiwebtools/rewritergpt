@@ -84,7 +84,7 @@ const Legal: React.FC = () => {
             <div>
               <h3 className="text-xl font-bold mb-2 font-display">Terms of Service</h3>
               <p className="text-gray-300">
-                Use of Article and Blog Rewriter GPT is subject to OpenAI's <a href="https://aiwebtools.ai/terms-of-services" target="_blank" rel="noopener noreferrer" className="text-cyber-cyan hover:underline">Terms of Service</a> as well as AI Web Tools LLC's terms. By using this tool, you agree to comply with all applicable terms and conditions.
+                Use of Article and Blog Rewriter GPT is subject to OpenAI's <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-cyber-cyan hover:underline">Terms of Service</a> as well as AI Web Tools LLC's terms. By using this tool, you agree to comply with all applicable terms and conditions.
               </p>
             </div>
           </div>

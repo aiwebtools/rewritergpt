@@ -2,6 +2,8 @@
 import React from 'react';
 import { PhoneCall, Mail, Twitter, Facebook, Instagram, Linkedin, ArrowRight } from 'lucide-react';
 
+const AIWEBTOOLS_URL = "https://aiwebtools.lovable.app/?via=aiwebtools";
+
 const Footer: React.FC = () => {
   return (
     <footer className="pt-20 pb-10 px-6 lg:px-12 relative overflow-hidden">
@@ -26,7 +28,7 @@ const Footer: React.FC = () => {
                   Article and Blog Rewriter <span className="text-cyber-cyan">GPT</span>
                 </span>
                 <span className="text-xs text-gray-400 tracking-wide">
-                  Presented by <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-cyan transition-colors">AiWebTools.Ai</a>
+                  Presented by <a href={AIWEBTOOLS_URL} target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-cyan transition-colors">AiWebTools.Ai</a>
                 </span>
               </div>
             </div>
@@ -72,7 +74,7 @@ const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-cyber-cyan transition-colors flex items-center gap-2">
+                <a href={AIWEBTOOLS_URL} target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-cyber-cyan transition-colors flex items-center gap-2">
                   <ArrowRight size={16} />
                   More AI Tools
                 </a>
@@ -91,7 +93,7 @@ const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="https://aiwebtools.ai/terms-of-services" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-cyber-cyan transition-colors flex items-center gap-2">
+                <a href={AIWEBTOOLS_URL} target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-cyber-cyan transition-colors flex items-center gap-2">
                   <ArrowRight size={16} />
                   Terms of Service
                 </a>
@@ -125,7 +127,7 @@ const Footer: React.FC = () => {
 
             {/* More AI Tools Button */}
             <a 
-              href="https://www.aiwebtools.ai" 
+              href={AIWEBTOOLS_URL}
               target="_blank" 
               rel="noopener noreferrer" 
               className="inline-block px-6 py-3 rounded-full bg-gradient-to-r from-cyber-blue to-cyber-purple text-white font-medium hover:shadow-lg hover:shadow-cyber-blue/20 transition-all mt-4"
@@ -139,7 +141,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
           <div>
             <a 
-              href="https://www.aiwebtools.ai" 
+              href={AIWEBTOOLS_URL} 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-cyber-cyan transition-colors"
