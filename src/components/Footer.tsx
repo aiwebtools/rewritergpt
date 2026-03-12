@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
                   Article and Blog Rewriter <span className="text-cyber-cyan">GPT</span>
                 </span>
                 <span className="text-xs text-gray-400 tracking-wide">
-                  Presented by <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-cyan transition-colors">AiWebTools.Ai</a>
+                  Presented by <a href={AIWEBTOOLS_URL} target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-cyan transition-colors">AiWebTools.Ai</a>
                 </span>
               </div>
             </div>
