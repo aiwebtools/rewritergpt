@@ -127,7 +127,7 @@ const Footer: React.FC = () => {
 
             {/* More AI Tools Button */}
             <a 
-              href="https://www.aiwebtools.ai" 
+              href={AIWEBTOOLS_URL}
               target="_blank" 
               rel="noopener noreferrer" 
               className="inline-block px-6 py-3 rounded-full bg-gradient-to-r from-cyber-blue to-cyber-purple text-white font-medium hover:shadow-lg hover:shadow-cyber-blue/20 transition-all mt-4"
