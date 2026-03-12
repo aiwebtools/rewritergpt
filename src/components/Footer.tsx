@@ -2,6 +2,8 @@
 import React from 'react';
 import { PhoneCall, Mail, Twitter, Facebook, Instagram, Linkedin, ArrowRight } from 'lucide-react';
 
+const AIWEBTOOLS_URL = "https://aiwebtools.lovable.app/?via=aiwebtools";
+
 const Footer: React.FC = () => {
   return (
     <footer className="pt-20 pb-10 px-6 lg:px-12 relative overflow-hidden">
